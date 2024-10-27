@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Unbounded",sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+} 
+.nav-bar h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.nav-bar p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 19px;
+}
+.nav-bar a {
+    font-style: 16px;
+    font-weight: 500px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #3a3c35;
+}
+.nav-link {
+    display: flex;
+    gap: 30px;
+}
+.burger {
+    display: none;
+    width: 20%;
+}
+@media (max-width:840px) {
+    .burger {
+        display: block;
+    }
+    .nav-link, .nav-bar p {
+        display: none;
+    }
+} 
+.header {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 3%;
+    gap: 70px;
+}
+.header-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header h1 {
+    font-size: 124px;
+    font-weight: 500;
+}
+.header-div h2 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 7%;
+    padding: 5px 0;
+}
+.header-div button {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    width: 160px;
+    gap: 10px;
+    justify-content: center;
+    background-color: #fff;
+}
+.card-1 {
+    background: url(Rectangle\ 12.png) center center no-repeat;
+}
+.card-2 {
+    background: url(Rectangle\ 13.png)center center no-repeat;
+} 
+.card-3{
+    background: url(Rectangle\ 12\ \(1\).png) center center no-repeat;
+} 
+.card-4 {
+    background: url(Rectangle\ 13\ \(1\).png) center center no-repeat;
+} 
+.card-5 {
+    background: url(Rectangle\ 12\ \(2\).png) center center no-repeat;
+} 
+.card-6 {
+    background: url(g.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.grid-car h1{
+    font-size: 24px;
+}
